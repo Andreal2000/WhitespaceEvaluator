@@ -17,7 +17,7 @@ class WhitespaceEvaluatorSpec extends AnyFlatSpec with should.Matchers {
 
     val inputStr = if Files.exists(Paths.get(inputPath)) then {
       val inputFile = scala.io.Source.fromFile(inputPath)
-      inputFile.mkString.stripMargin
+      inputFile.mkString
     } else ""
 
     val outputFile = scala.io.Source.fromFile(outputPath)

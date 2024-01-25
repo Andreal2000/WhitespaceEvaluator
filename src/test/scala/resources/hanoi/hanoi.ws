@@ -169,8 +169,6 @@ Towers of Hanoi solver.
 
    		 			  		  	 	 			 			 		 		   		 	  	 		 			  		  	 	
    	 	 
-   		 	
 	
-  	
   
 	
